@@ -1,0 +1,32 @@
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.exe.config
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.exe
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.pdb
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.AssemblyReference.cache
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\MainWindow.g.cs
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\App.g.cs
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others_MarkupCompile.cache
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others_MarkupCompile.lref
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\MainWindow.baml
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.g.resources
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance_Project_actual_one_ignore_others.Properties.Resources.resources
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.GenerateResource.cache
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.CoreCompileInputs.cache
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.exe
+\\JLC-FSRV01\s24000007739\Documents\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.pdb
+H:\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.exe.config
+H:\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.exe
+H:\Finance Project actual one ignore others\bin\Debug\Finance Project actual one ignore others.pdb
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.AssemblyReference.cache
+H:\Finance Project actual one ignore others\obj\Debug\Theme\MenuButtonTheme.baml
+H:\Finance Project actual one ignore others\obj\Debug\MainWindow.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\App.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others_MarkupCompile.cache
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others_MarkupCompile.lref
+H:\Finance Project actual one ignore others\obj\Debug\App.baml
+H:\Finance Project actual one ignore others\obj\Debug\MainWindow.baml
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.g.resources
+H:\Finance Project actual one ignore others\obj\Debug\Finance_Project_actual_one_ignore_others.Properties.Resources.resources
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.GenerateResource.cache
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.CoreCompileInputs.cache
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.exe
+H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.pdb
