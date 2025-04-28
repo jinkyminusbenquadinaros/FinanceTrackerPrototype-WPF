@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="Finance_Project_actual_one_ignore_others.MVVM.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Finance_Project_actual_one_ignore_others.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Text="Add Expenses"
+                   Foreground="White"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="0,0,0,20"/>
+
+        <StackPanel Orientation="Horizontal">
+            <Border Width="400"
+                    Height="200"
+                    >
+
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#3aa0ff" Offset="1"
+                                      />
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="10"
+                                       RadiusY="10"
+                                       Rect="0,0,400,200"/>
+                </Border.Clip>
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Input your spending here!"
+                                   Foreground="White"
+                                   FontSize="25"
+                                   Margin="20,10,10,0"/>
+
+                        <TextBlock Text="Global debt reached $102 trillion in 2024&#x0a; an increase of $5 trillion from 2023!"
+           Foreground="White"
+           FontSize="15"
+
+                                   Margin="20,10,10,0"/>
+
+                    </StackPanel>
+                    
+                </Grid>
+                
+
+            </Border>
+
+        </StackPanel>
+    </StackPanel>
+</UserControl>

@@ -30,3 +30,4 @@ H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one
 H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.csproj.CoreCompileInputs.cache
 H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.exe
 H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.pdb
+H:\Finance Project actual one ignore others\obj\Debug\Theme\TextBoxTheme.baml
