@@ -31,3 +31,10 @@ H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one
 H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.exe
 H:\Finance Project actual one ignore others\obj\Debug\Finance Project actual one ignore others.pdb
 H:\Finance Project actual one ignore others\obj\Debug\Theme\TextBoxTheme.baml
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\HomeView.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\HomeView.baml
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\DiscoveryView.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\DiscoveryView.baml
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\RecurringExpenseView.g.cs
+H:\Finance Project actual one ignore others\obj\Debug\MVVM\View\RecurringExpenseView.baml

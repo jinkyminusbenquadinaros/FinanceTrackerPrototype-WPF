@@ -4,12 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Finance_Project_actual_one_ignore_others"
+        xmlns:viewModel="clr-namespace:Finance_Project_actual_one_ignore_others.MVVM.ViewModel"
         mc:Ignorable="d"
         Height="600" Width="920"
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="True">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+
+    </Window.DataContext>
+    
+    
+    
     <Border Background="#282828"
         CornerRadius="20">
         <Grid>
@@ -22,7 +30,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Neimantas Super Financial Tracker Prototype"
+            <TextBlock Text="Neimantas Financial Tracker Super+"
                        VerticalAlignment="Top"
                        HorizontalAlignment="Left"
                        Foreground="#E0E0E0"
@@ -30,7 +38,7 @@
                        FontWeight="Bold"
 
                     TextWrapping="WrapWithOverflow"
-                       FontSize="19" Margin="17,2,0,0" RenderTransformOrigin="0.5,0.5" Width="207" Height="88" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                       FontSize="19" Margin="10,10,0,0" RenderTransformOrigin="0.5,0.5" Width="207" Height="88" Grid.RowSpan="2" Grid.ColumnSpan="2">
                 <TextBlock.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -45,17 +53,21 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="Add Expenses"
              Height="50"
              Foreground="White"
              FontSize="14"
-             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Add Recurring Expenses"
+             Style="{StaticResource MenuButtonTheme}"
+             Command="{Binding DiscoveryViewCommand}"/>
+                <RadioButton Content="Recurring Expenses"
              Height="50"
              Foreground="White"
              FontSize="14"
-             Style="{StaticResource MenuButtonTheme}"/>
+             Style="{StaticResource MenuButtonTheme}"
+             Command="{Binding RecurringExpenseCommand}"/>
 
 
             </StackPanel>
@@ -68,7 +80,8 @@
                        Style="{StaticResource ModernTextbox}"/>
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10"/>
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
 
 
         </Grid>

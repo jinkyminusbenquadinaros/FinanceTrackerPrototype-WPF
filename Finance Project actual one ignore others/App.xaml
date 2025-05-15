@@ -2,6 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Finance_Project_actual_one_ignore_others"
+             xmlns:viewModel="clr-namespace:Finance_Project_actual_one_ignore_others.MVVM.ViewModel"
+             xmlns:view="clr-namespace:Finance_Project_actual_one_ignore_others.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -10,7 +12,20 @@
                 <ResourceDictionary Source="Theme\TextboxTheme.xaml"/>
                 
             </ResourceDictionary.MergedDictionaries>
-            
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+
+
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
+                <view:DiscoveryView/>
+                
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:RecurringExpenseModel}">
+                <view:RecurringExpenseView/>
+
+            </DataTemplate>
             
             
         </ResourceDictionary>

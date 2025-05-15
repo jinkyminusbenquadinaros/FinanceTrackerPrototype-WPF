@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 H:\Finance Project actual one ignore others\App.xaml
-4-1061984743
+6-1942209938
 
-10192967489
+15-1287280741
 13-1310406943
-MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
+MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;MVVM\View\RecurringExpenseView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
 True
 
