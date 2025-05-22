@@ -98,7 +98,8 @@ Foreground="White"
                         Height="150"
                     Background="#844eff"
                         CornerRadius="10"
-                        Margin="0">
+                        Margin="0"
+                         >
                 </Border>
                 <Border Width="150"
         Height="150"

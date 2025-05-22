@@ -1,126 +1,17 @@
-﻿<UserControl x:Class="Finance_Project_actual_one_ignore_others.MVVM.View.DiscoveryView"
+﻿
+    <UserControl x:Class="BudgetApp.Views.AddExpenseView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:Finance_Project_actual_one_ignore_others.MVVM.View"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
-             Background="#1B1B1B">
-    <StackPanel>
-        <TextBlock Text="Discovery"
-                   Foreground="White"
-                   FontSize="28"
-                   HorizontalAlignment="Left"
-                   Margin="0,0,0,20"/>
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <StackPanel Margin="20">
+            <TextBlock Text="Add New Expense" FontSize="20" Margin="0,0,0,10"/>
 
-        <StackPanel Orientation="Horizontal"
-                    Margin="0,0,0,10">
-            <Border Width="400"
-                    Height="200"
-                    >
+            <TextBlock Text="Expense Name"/>
+            <TextBox Text="{Binding ExpenseName}" Width="200" Margin="0,0,0,10"/>
 
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
-                        <GradientStop Color="#3aa0ff" Offset="1"
-                                      />
-                    </LinearGradientBrush>
-                </Border.Background>
+            <TextBlock Text="Amount"/>
+            <TextBox Text="{Binding ExpenseAmount}" Width="200" Margin="0,0,0,10"/>
 
-                <Border.Clip>
-                    <RectangleGeometry RadiusX="10"
-                                       RadiusY="10"
-                                       Rect="0,0,400,200"/>
-                </Border.Clip>
-                <Grid>
-                    <StackPanel>
-                        <TextBlock Text="Find financial info here!"
-                        Foreground="White"
-                                   FontSize="22"
-                                   Margin="20,10,10,0"/>
-                        <TextBlock Text="In 2024 global debt reached 318 Trillion &#x0a;thats an increase of 86 trillion from 2020! "
-Foreground="White"
-           FontSize="18"
-           Margin="20,10,10,0"/>
-
-
-                    </StackPanel>
-                    <Image Width="250"
-                           Height="250"
-                           Source="/Images/stackof100s.png"
-                           HorizontalAlignment="Right"
-                           VerticalAlignment="Bottom" Margin="0,0,-50,-45">
-                        <UIElement.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform/>
-                                <SkewTransform/>
-                                <RotateTransform/>
-                                <TranslateTransform/>
-                            </TransformGroup>
-                        </UIElement.RenderTransform>
-                    </Image>
-
-
-
-
-
-                </Grid>
-
-            </Border>
-            <Border Width="200" Height="200"
-                    CornerRadius="10"
-                    Margin="45,0,0,0">
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#ffc554" Offset="0.0"/>
-                        <GradientStop Color="#ffb73a" Offset="1"/>
-
-                    </LinearGradientBrush>
-                </Border.Background>
-            </Border>
+            <Button Content="Add" Command="{Binding SubmitExpenseCommand}" Width="100" Margin="0,20,0,0"/>
         </StackPanel>
-
-        <StackPanel>
-            <StackPanel.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="Margin" Value="15,0,0,0"/>
-                </Style>
-            </StackPanel.Resources>
-
-            <TextBlock Text="Add Expenses"
-           Foreground="White"
-           FontSize="20"
-           HorizontalAlignment="Left"
-           Margin="0,0,0,10"/>
-
-            <StackPanel Orientation="Horizontal">
-                <Border Width="150"
-                        Height="150"
-                    Background="#844eff"
-                        CornerRadius="10"
-                        Margin="0">
-                </Border>
-                <Border Width="150"
-        Height="150"
-    Background="#4e99ff"
-        CornerRadius="10">
-                </Border>
-                <Border Width="150"
-        Height="150"
-    Background="#4eff91"
-        CornerRadius="10">
-                </Border>
-                <Border Width="150"
-        Height="150"
-    Background="#ecff4e"
-        CornerRadius="10">
-                </Border>
-
-            </StackPanel>
-
-        </StackPanel>
-
-    </StackPanel>
-
-</UserControl>
+    </UserControl>
+    
